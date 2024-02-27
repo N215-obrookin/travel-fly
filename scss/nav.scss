@@ -1,0 +1,139 @@
+nav {
+  height: 65px;
+  width: $content-width;
+  margin: 0 auto;
+  // background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid $site-white;
+  position: relative;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    // background-color: red;
+    border: 2px solid $site-white;
+    color: #fff;
+
+    p {
+      font-size: 20px;
+      position: absolute;
+      top: 35px;
+    }
+  }
+  ul {
+    list-style: none;
+    // text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  .links {
+    min-width: 300px;
+    height: 42px;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 600px;
+
+    a {
+      margin-right: 5px;
+      padding-right: 10px;
+      border-right: 1px solid $site-blue;
+    }
+  }
+}
+.hamb-icon {
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+
+  div {
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  height: auto;
+  width: 100px;
+}
+
+.mobile-menu {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  // background-color: #fff;
+  height: calc(100vh - 50px);
+
+  li a {
+    text-decoration: none;
+    display: none;
+    // color: #fff;
+  }
+}
+
+@media all and (max-width: 920px) {
+  header nav {
+    display: none;
+  }
+  .hamb-icon {
+    display: block;
+    position: relative;
+
+    .bar1 {
+      display: block;
+    }
+    .bar2 {
+      display: block;
+    }
+    .bar3 {
+      display: block;
+    }
+  }
+  .open .mobile-menu {
+    display: block;
+
+    li a {
+      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}
