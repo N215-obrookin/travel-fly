@@ -71,6 +71,57 @@ nav .links a {
   border-right: 1px solid #79addc;
 }
 
+.other-nav {
+  height: 65px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #000000;
+  position: relative;
+  z-index: 99;
+}
+
+.other-logo {
+  width: 92px;
+  height: 42px;
+  border: 2px solid #000000;
+  color: #000;
+}
+.other-logo p {
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul a {
+  text-decoration: none;
+  color: #000;
+}
+ul .other-links {
+  min-width: 300px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  left: 600px;
+}
+ul .other-links a {
+  margin-right: 5px;
+  padding-right: 10px;
+  border-right: 1px solid #79addc;
+  color: #000;
+}
+
 .hamb-icon {
   margin: 0 auto;
   display: block;

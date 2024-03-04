@@ -54,6 +54,64 @@ nav {
     }
   }
 }
+
+.other-nav {
+  height: 65px;
+  width: $content-width;
+  margin: 0 auto;
+  // background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid $site-black;
+  position: relative;
+  z-index: 99;
+}
+.other-logo {
+  width: 92px;
+  height: 42px;
+  // background-color: red;
+  border: 2px solid $site-black;
+  color: #000;
+
+  p {
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+  }
+}
+ul {
+  list-style: none;
+  // text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .other-links {
+    min-width: 300px;
+    height: 42px;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 600px;
+
+    a {
+      margin-right: 5px;
+      padding-right: 10px;
+      border-right: 1px solid $site-blue;
+      color: #000;
+    }
+  }
+}
+
 .hamb-icon {
   margin: 0 auto;
   display: block;
