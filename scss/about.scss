@@ -11,9 +11,9 @@
 .client-quote {
   margin: 0 auto;
   width: $content-width;
-  h1 {
+  h2 {
     border-bottom: 2px solid $site-black;
-    width: 180px;
+    max-width: 190px;
     font-size: 40px;
   }
   .client-1 {
@@ -22,11 +22,54 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    position: relative;
 
+    p {
+      margin-left: 21px;
+    }
     .pic {
-      background-color: red;
-      height: 150px;
-      width: 260px;
+      //   background-color: red;
+      min-height: 150px;
+      min-width: 260px;
+      background-image: url(../images/about-client-01.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .name {
+      color: $site-blue;
+      position: absolute;
+      top: 130px;
+      right: 40px;
+    }
+  }
+  .client-2 {
+    height: 150px;
+    width: 722px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 37px;
+    margin-bottom: 179px;
+
+    p {
+      margin-left: 21px;
+    }
+    .pic-2 {
+      //   background-color: red;
+      min-height: 150px;
+      min-width: 260px;
+      background-image: url(../images/about-client-02.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .name {
+      color: $site-blue;
+      position: absolute;
+      top: 130px;
+      right: 40px;
     }
   }
 }

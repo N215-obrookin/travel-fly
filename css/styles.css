@@ -538,9 +538,9 @@ ul .other-links a {
   margin: 0 auto;
   width: 980px;
 }
-.client-quote h1 {
+.client-quote h2 {
   border-bottom: 2px solid #000000;
-  width: 180px;
+  max-width: 190px;
   font-size: 40px;
 }
 .client-quote .client-1 {
@@ -549,11 +549,51 @@ ul .other-links a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: relative;
+}
+.client-quote .client-1 p {
+  margin-left: 21px;
 }
 .client-quote .client-1 .pic {
-  background-color: red;
+  min-height: 150px;
+  min-width: 260px;
+  background-image: url(../images/about-client-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.client-quote .client-1 .name {
+  color: #79addc;
+  position: absolute;
+  top: 130px;
+  right: 40px;
+}
+.client-quote .client-2 {
   height: 150px;
-  width: 260px;
+  width: 722px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: 37px;
+  margin-bottom: 179px;
+}
+.client-quote .client-2 p {
+  margin-left: 21px;
+}
+.client-quote .client-2 .pic-2 {
+  min-height: 150px;
+  min-width: 260px;
+  background-image: url(../images/about-client-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.client-quote .client-2 .name {
+  color: #79addc;
+  position: absolute;
+  top: 130px;
+  right: 40px;
 }
 
 footer {
