@@ -1,0 +1,32 @@
+.about {
+  margin: 0 auto;
+  width: $content-width;
+  h1 {
+    border-bottom: 2px solid $site-black;
+    width: 171px;
+    font-size: 60px;
+  }
+}
+
+.client-quote {
+  margin: 0 auto;
+  width: $content-width;
+  h1 {
+    border-bottom: 2px solid $site-black;
+    width: 180px;
+    font-size: 40px;
+  }
+  .client-1 {
+    height: 150px;
+    width: 722px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .pic {
+      background-color: red;
+      height: 150px;
+      width: 260px;
+    }
+  }
+}

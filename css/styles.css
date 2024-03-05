@@ -524,6 +524,38 @@ ul .other-links a {
   }
 }
 
+.about {
+  margin: 0 auto;
+  width: 980px;
+}
+.about h1 {
+  border-bottom: 2px solid #000000;
+  width: 171px;
+  font-size: 60px;
+}
+
+.client-quote {
+  margin: 0 auto;
+  width: 980px;
+}
+.client-quote h1 {
+  border-bottom: 2px solid #000000;
+  width: 180px;
+  font-size: 40px;
+}
+.client-quote .client-1 {
+  height: 150px;
+  width: 722px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.client-quote .client-1 .pic {
+  background-color: red;
+  height: 150px;
+  width: 260px;
+}
+
 footer {
   height: 100px;
   display: flex;
