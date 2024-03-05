@@ -126,7 +126,7 @@ ul .other-links a {
 .hamb-icon div {
   width: 35px;
   height: 3px;
-  background-color: #fff;
+  background-color: #000;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -166,10 +166,14 @@ ul .other-links a {
 .mobile-menu li a {
   text-decoration: none;
   display: none;
+  color: #000;
 }
 
 @media all and (max-width: 920px) {
   header nav {
+    display: none;
+  }
+  .other-nav {
     display: none;
   }
   .hamb-icon {
@@ -533,8 +537,6 @@ ul .other-links a {
 
 p {
   font-size: 16px;
-  font-family: reg-gill;
-  src: url(fonts/Gill\ Sans.otf);
 }
 
 .client-quote {
@@ -599,6 +601,45 @@ p {
   right: 40px;
 }
 
+@media all and (max-width: 920px) {
+  .about {
+    width: 500px;
+  }
+  .client-quote {
+    width: 500px;
+  }
+  .client-quote .client-1 {
+    display: flex;
+    flex-direction: column;
+    right: 150px;
+    top: 60px;
+  }
+  .client-quote .client-1 p {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 260px;
+  }
+  .client-quote .client-1 .name {
+    right: 0px;
+    top: 180px;
+  }
+  .client-quote .client-2 {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    right: 150px;
+    top: 100px;
+  }
+  .client-quote .client-2 p {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 260px;
+  }
+  .client-quote .client-2 .name {
+    right: 0px;
+    top: 180px;
+  }
+}
 footer {
   height: 100px;
   display: flex;

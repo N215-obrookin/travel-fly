@@ -10,8 +10,6 @@
 }
 p {
   font-size: 16px;
-  font-family: reg-gill;
-  src: url(fonts/Gill\ Sans.otf);
 }
 
 .client-quote {
@@ -76,6 +74,48 @@ p {
       position: absolute;
       top: 130px;
       right: 40px;
+    }
+  }
+}
+
+@media all and (max-width: 920px) {
+  .about {
+    width: 500px;
+  }
+  .client-quote {
+    width: 500px;
+
+    .client-1 {
+      display: flex;
+      flex-direction: column;
+      right: 150px;
+      top: 60px;
+
+      p {
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 260px;
+      }
+      .name {
+        right: 00px;
+        top: 180px;
+      }
+    }
+    .client-2 {
+      margin-top: 120px;
+      display: flex;
+      flex-direction: column;
+      right: 150px;
+      top: 100px;
+      p {
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 260px;
+      }
+      .name {
+        right: 00px;
+        top: 180px;
+      }
     }
   }
 }

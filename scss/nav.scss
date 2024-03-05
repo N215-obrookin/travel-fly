@@ -120,7 +120,7 @@ ul {
   div {
     width: 35px;
     height: 3px;
-    background-color: #fff;
+    background-color: #000;
     margin: 6px 0;
     transition: 0.4s;
   }
@@ -162,12 +162,15 @@ ul {
   li a {
     text-decoration: none;
     display: none;
-    // color: #fff;
+    color: #000;
   }
 }
 
 @media all and (max-width: 920px) {
   header nav {
+    display: none;
+  }
+  .other-nav {
     display: none;
   }
   .hamb-icon {
