@@ -19,10 +19,6 @@ p {
   margin-bottom: 16px;
 }
 
-@font-face {
-  font-family: gill;
-  src: url(../fonts/Gill\ Sans.otf);
-}
 nav {
   height: 65px;
   width: 980px;
@@ -532,6 +528,13 @@ ul .other-links a {
   border-bottom: 2px solid #000000;
   width: 171px;
   font-size: 60px;
+  font-family: url(fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+
+p {
+  font-size: 16px;
+  font-family: reg-gill;
+  src: url(fonts/Gill\ Sans.otf);
 }
 
 .client-quote {
