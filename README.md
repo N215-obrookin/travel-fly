@@ -17,3 +17,9 @@ Web4 link: https://in-info-web4.informatics.iupui.edu/~obrookin/N215/homework-fo
 - having issue getting the correct fonts
 
 Web4 link: https://in-info-web4.informatics.iupui.edu/~obrookin/N215/homework-five/
+
+# homework-six
+
+-
+
+Web4 link: https://in-info-web4.informatics.iupui.edu/~obrookin/N215/homework-six/
