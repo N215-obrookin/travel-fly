@@ -1,0 +1,386 @@
+.banner {
+  max-width: 981px;
+  height: 200px;
+  background-color: blue;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/tours.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  p {
+    color: white;
+    font-size: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.specials {
+  width: $home-content-width;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-between;
+
+  .box-1 {
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/export.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-1-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-2 {
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/usa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-2-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-3 {
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-3-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-4 {
+    margin-top: 20px;
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-4-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-5 {
+    margin-top: 20px;
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-5-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-6 {
+    margin-top: 20px;
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-6-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-7 {
+    margin-top: 20px;
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-7-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-8 {
+    margin-top: 20px;
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-8-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+  .box-9 {
+    margin-top: 20px;
+    height: 304px;
+    width: 236px;
+    // background-color: cornflowerblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../images/australia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .box-9-text {
+      margin-top: 37px;
+      color: white;
+
+      h2 {
+        font-size: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      p {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .boxes {
+        color: white;
+        background-color: $site-blue;
+        border: none;
+        height: 40px;
+        width: 133px;
+        border-radius: 20px;
+        margin: 50px;
+      }
+    }
+  }
+}
