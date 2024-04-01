@@ -1029,7 +1029,7 @@ p {
   display: none;
 }
 
-.tour-hero {
+.israel-tour-hero {
   width: 981px;
   height: 413px;
   background-color: red;
@@ -1039,6 +1039,225 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+.israel-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.israel-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 470px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.usa-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/usa.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.usa-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.usa-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 485px;
+  left: 740px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.aus-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.aus-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.aus-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 470px;
 }
 
 .pics {
