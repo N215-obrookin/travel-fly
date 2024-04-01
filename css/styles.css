@@ -1029,6 +1029,95 @@ p {
   display: none;
 }
 
+.tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/export.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
 footer {
   height: 100px;
   display: flex;
