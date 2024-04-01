@@ -9,13 +9,20 @@ body {
   height: 100%;
 }
 
-h1,
-h2,
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 h3,
 h4,
 h5,
 h6,
 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-bottom: 16px;
 }
 
@@ -248,13 +255,13 @@ ul .other-links a {
   color: white;
 }
 .home .specials .box-1 .box-1-text h2 {
-  font-size: 60px;
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .home .specials .box-1 .box-1-text p {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -281,13 +288,13 @@ ul .other-links a {
   color: white;
 }
 .home .specials .box-2 .box-2-text h2 {
-  font-size: 60px;
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .home .specials .box-2 .box-2-text p {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -314,13 +321,13 @@ ul .other-links a {
   color: white;
 }
 .home .specials .box-3 .box-3-text h2 {
-  font-size: 60px;
+  font-size: 35px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .home .specials .box-3 .box-3-text p {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -601,7 +608,14 @@ p {
   right: 40px;
 }
 
+.hamb-icon {
+  visibility: hidden;
+}
+
 @media all and (max-width: 920px) {
+  .hamb-icon {
+    visibility: visible;
+  }
   .about {
     width: 500px;
   }
@@ -648,15 +662,17 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto;
+  margin-top: 48px;
+  margin-left: 270px;
+  margin-bottom: 48px;
 }
 .banner p {
   color: white;
   font-size: 60px;
-  margin: 0 auto;
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
+  padding-top: 53px;
 }
 
 .specials {
@@ -666,6 +682,7 @@ p {
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .specials .box-1 {
   height: 304px;
@@ -674,6 +691,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-1 .box-1-text {
   margin-top: 37px;
@@ -684,9 +702,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-1 .box-1-text p {
-  font-size: 30px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -699,6 +718,8 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-2 {
   height: 304px;
@@ -707,6 +728,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-2 .box-2-text {
   margin-top: 37px;
@@ -717,9 +739,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-2 .box-2-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -732,6 +755,8 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-3 {
   height: 304px;
@@ -740,6 +765,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-3 .box-3-text {
   margin-top: 37px;
@@ -749,10 +775,11 @@ p {
   font-size: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  font-weight: 400;
 }
 .specials .box-3 .box-3-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -765,28 +792,33 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-4 {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/new\ z.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-4 .box-4-text {
   margin-top: 37px;
   color: white;
+  font-weight: 100;
 }
 .specials .box-4 .box-4-text h2 {
-  font-size: 60px;
+  font-size: 40px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-4 .box-4-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -799,15 +831,18 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-5 {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/france.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-5 .box-5-text {
   margin-top: 37px;
@@ -818,9 +853,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-5 .box-5-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -833,15 +869,18 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-6 {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/egypt.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-6 .box-6-text {
   margin-top: 37px;
@@ -852,9 +891,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-6 .box-6-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -867,15 +907,18 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-7 {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-7 .box-7-text {
   margin-top: 37px;
@@ -886,9 +929,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-7 .box-7-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -901,15 +945,18 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-8 {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/canada.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-8 .box-8-text {
   margin-top: 37px;
@@ -920,9 +967,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-8 .box-8-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -935,15 +983,18 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
 }
 .specials .box-9 {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/australia.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/uae.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .specials .box-9 .box-9-text {
   margin-top: 37px;
@@ -954,9 +1005,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  font-weight: 400;
 }
 .specials .box-9 .box-9-text p {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -969,6 +1021,12 @@ p {
   width: 133px;
   border-radius: 20px;
   margin: 50px;
+  position: absolute;
+  top: 150px;
+}
+
+.hamb-icon {
+  display: none;
 }
 
 footer {

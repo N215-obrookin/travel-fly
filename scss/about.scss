@@ -78,7 +78,14 @@ p {
   }
 }
 
+.hamb-icon {
+  visibility: hidden;
+}
+
 @media all and (max-width: 920px) {
+  .hamb-icon {
+    visibility: visible;
+  }
   .about {
     width: 500px;
   }

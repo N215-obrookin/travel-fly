@@ -7,14 +7,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto;
+  margin-top: 48px;
+  margin-left: 270px;
+  margin-bottom: 48px;
+  // margin: 48px, 0, 48px, 270px;
   p {
     color: white;
     font-size: 60px;
-    margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
+    padding-top: 53px;
   }
 }
 
@@ -25,6 +28,7 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 100px;
 
   .box-1 {
     height: 304px;
@@ -35,6 +39,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-1-text {
       margin-top: 37px;
@@ -45,10 +50,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 20px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -62,6 +68,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -74,6 +82,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-2-text {
       margin-top: 37px;
@@ -84,10 +93,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -101,6 +111,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -113,20 +125,21 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-3-text {
       margin-top: 37px;
       color: white;
-
       h2 {
         font-size: 60px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -140,6 +153,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -153,20 +168,23 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-4-text {
       margin-top: 37px;
       color: white;
+      font-weight: 100;
 
       h2 {
-        font-size: 60px;
+        font-size: 40px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -180,6 +198,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -193,6 +213,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-5-text {
       margin-top: 37px;
@@ -203,10 +224,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -220,6 +242,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -233,6 +257,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-6-text {
       margin-top: 37px;
@@ -243,10 +268,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -260,6 +286,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -273,6 +301,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-7-text {
       margin-top: 37px;
@@ -283,10 +312,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -300,6 +330,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -313,6 +345,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-8-text {
       margin-top: 37px;
@@ -323,10 +356,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -340,6 +374,8 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
@@ -353,6 +389,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
     .box-9-text {
       margin-top: 37px;
@@ -363,10 +400,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        font-weight: 400;
       }
 
       p {
-        font-size: 30px;
+        font-size: 25px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -380,7 +418,13 @@
         width: 133px;
         border-radius: 20px;
         margin: 50px;
+        position: absolute;
+        top: 150px;
       }
     }
   }
+}
+
+.hamb-icon {
+  display: none;
 }
