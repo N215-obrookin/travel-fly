@@ -1,0 +1,132 @@
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  width: $content-width;
+  margin: 0 auto;
+  margin-top: 55.5px;
+}
+
+hr {
+  width: 106px;
+  border-top: 2px solid black;
+  margin-left: 270px;
+  margin-bottom: 31.5px;
+}
+
+.entry-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-left: 150px;
+  width: $content-width;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  .date {
+    width: 60px;
+    height: 60px;
+    background-color: $site-blue;
+    margin-right: 20px;
+
+    h2 {
+      color: white;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .month {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: absolute;
+      top: 135px;
+      left: 15px;
+    }
+  }
+
+  .article-banner {
+    width: 900px;
+    height: 259px;
+    // background-color: beige;
+    background-image: url(../images/blog-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 300px;
+    right: 640px;
+  }
+  .blurb {
+    width: 380px;
+    position: absolute;
+    top: 325px;
+    right: 520px;
+    color: $site-blue;
+  }
+}
+
+.entry-box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-left: 150px;
+  width: $content-width;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  .date {
+    width: 60px;
+    height: 60px;
+    background-color: $site-blue;
+    margin-right: 20px;
+
+    h2 {
+      color: white;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .month {
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: absolute;
+      top: 135px;
+      left: 15px;
+    }
+  }
+
+  .article-banner {
+    width: 900px;
+    height: 259px;
+    // background-color: beige;
+    background-image: url(../images/blog-image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    top: 300px;
+    right: 640px;
+  }
+  .blurb {
+    width: 380px;
+    position: absolute;
+    top: 325px;
+    right: 520px;
+    color: $site-blue;
+  }
+}

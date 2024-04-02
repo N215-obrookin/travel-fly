@@ -2148,6 +2148,131 @@ p {
   left: 170px;
 }
 
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 55.5px;
+}
+
+hr {
+  width: 106px;
+  border-top: 2px solid black;
+  margin-left: 270px;
+  margin-bottom: 31.5px;
+}
+
+.entry-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-left: 150px;
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+}
+.entry-box .date {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  margin-right: 20px;
+}
+.entry-box .date h2 {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.entry-box .date .month {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 135px;
+  left: 15px;
+}
+.entry-box .article-banner {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.entry-box .name {
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  top: 300px;
+  right: 640px;
+}
+.entry-box .blurb {
+  width: 380px;
+  position: absolute;
+  top: 325px;
+  right: 520px;
+  color: #79addc;
+}
+
+.entry-box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  margin-left: 150px;
+  width: 980px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.entry-box-2 .date {
+  width: 60px;
+  height: 60px;
+  background-color: #79addc;
+  margin-right: 20px;
+}
+.entry-box-2 .date h2 {
+  color: white;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.entry-box-2 .date .month {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 135px;
+  left: 15px;
+}
+.entry-box-2 .article-banner {
+  width: 900px;
+  height: 259px;
+  background-image: url(../images/blog-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.entry-box-2 .name {
+  font-size: 15px;
+  font-weight: 600;
+  position: absolute;
+  top: 300px;
+  right: 640px;
+}
+.entry-box-2 .blurb {
+  width: 380px;
+  position: absolute;
+  top: 325px;
+  right: 520px;
+  color: #79addc;
+}
+
 footer {
   height: 100px;
   display: flex;
