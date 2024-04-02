@@ -1,0 +1,40 @@
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+hr {
+  width: 159px;
+}
+
+.contact {
+  width: $content-width;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+  .split-box-1 {
+    margin-left: 55px;
+    .map {
+      width: 400px;
+      height: 442px;
+      //   background-color: pink;
+      background-image: url(../images/map.png);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .info {
+      font-size: 18px;
+    }
+  }
+  .split-box-2 {
+    .contact-form {
+      input {
+        width: 529px;
+        height: 60px;
+        color: #f5f5f5;
+      }
+    }
+  }
+}

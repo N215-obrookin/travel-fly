@@ -2226,7 +2226,7 @@ hr {
   margin-left: 150px;
   width: 980px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
 }
 .entry-box-2 .date {
   width: 60px;
@@ -2271,6 +2271,37 @@ hr {
   top: 325px;
   right: 520px;
   color: #79addc;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+hr {
+  width: 159px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact .split-box-1 .map {
+  width: 400px;
+  height: 442px;
+  background-color: pink;
+  background-image: url(../images/map.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact .split-box-1 .info {
+  font-size: 18px;
+}
+.contact .split-box-2 .contact-form input {
+  width: 529px;
+  height: 60px;
 }
 
 footer {
