@@ -23,3 +23,10 @@ Web4 link: https://in-info-web4.informatics.iupui.edu/~obrookin/N215/homework-fi
 -
 
 Web4 link: https://in-info-web4.informatics.iupui.edu/~obrookin/N215/homework-six/
+
+# homework-seven
+
+- fixed most issues from past
+- contact page messing with site
+
+Web4 link: https://in-info-web4.informatics.iupui.edu/~obrookin/N215/homework-seven/contact.html

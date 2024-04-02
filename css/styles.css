@@ -2283,14 +2283,19 @@ hr {
 }
 
 .contact {
+  width: 980px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 0 auto;
+  position: relative;
+}
+.contact .split-box-1 {
+  width: 50%;
 }
 .contact .split-box-1 .map {
   width: 400px;
   height: 442px;
-  background-color: pink;
   background-image: url(../images/map.png);
   background-position: center;
   background-size: cover;
@@ -2298,6 +2303,12 @@ hr {
 }
 .contact .split-box-1 .info {
   font-size: 18px;
+}
+.contact .split-box-2 {
+  width: 50%;
+}
+.contact .split-box-2 .contact-form {
+  width: 100%;
 }
 .contact .split-box-2 .contact-form input {
   width: 529px;
