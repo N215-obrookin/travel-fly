@@ -1,0 +1,110 @@
+.canada-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/canada.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  h2 {
+    color: $site-white;
+    font-size: 80px;
+    font-weight: 300;
+  }
+  p {
+    color: $site-white;
+    font-size: 30px;
+    font-weight: 200;
+    position: absolute;
+    top: 375px;
+    left: 465px;
+  }
+}
+
+.pics {
+  margin-top: 40px;
+
+  display: flex;
+  //   align-items: ;
+  justify-content: center;
+  .box1 {
+    width: 298px;
+    height: 347px;
+    background-color: black;
+    margin-right: 42px;
+    margin-bottom: 29px;
+  }
+  .box2 {
+    width: 298px;
+    height: 347px;
+    background-color: black;
+    margin-right: 42px;
+    margin-bottom: 29px;
+  }
+  .box3 {
+    width: 298px;
+    height: 347px;
+    background-color: black;
+  }
+}
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+  .day1 {
+    h2 {
+      font-size: 60px;
+      font-weight: 300;
+    }
+    hr {
+      width: 171px;
+      border-top: 2px solid black;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .day2 {
+    h2 {
+      font-size: 60px;
+      font-weight: 300;
+    }
+    hr {
+      width: 171px;
+      border-top: 2px solid black;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .day3 {
+    h2 {
+      font-size: 60px;
+      font-weight: 300;
+    }
+    hr {
+      width: 171px;
+      border-top: 2px solid black;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+.book {
+  color: white;
+  background-color: $site-blue;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}

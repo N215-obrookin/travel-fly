@@ -799,7 +799,7 @@ p {
   margin-top: 20px;
   height: 304px;
   width: 236px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/new\ z.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/new-z.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1252,6 +1252,623 @@ p {
   font-weight: 300;
 }
 .aus-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 470px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.newz-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/new-z.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.newz-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.newz-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 470px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.france-tour-hero {
+  width: 981px;
+  height: 413px;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/france.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.france-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.france-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 470px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.egypt-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/egypt.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.egypt-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.egypt-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 485px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.japan-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.japan-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.japan-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 470px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.canada-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/canada.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.canada-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.canada-tour-hero p {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  top: 375px;
+  left: 465px;
+}
+
+.pics {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.pics .box1 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box2 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+  margin-right: 42px;
+  margin-bottom: 29px;
+}
+.pics .box3 {
+  width: 298px;
+  height: 347px;
+  background-color: black;
+}
+
+.info {
+  width: 981px;
+  height: 776px;
+  margin: 0 auto;
+}
+.info .day1 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day1 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day1 p {
+  font-size: 16px;
+}
+.info .day2 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day2 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day2 p {
+  font-size: 16px;
+}
+.info .day3 h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+.info .day3 hr {
+  width: 171px;
+  border-top: 2px solid black;
+}
+.info .day3 p {
+  font-size: 16px;
+}
+
+.book {
+  color: white;
+  background-color: #79addc;
+  border: none;
+  height: 40px;
+  width: 133px;
+  border-radius: 20px;
+  margin: 0 auto;
+  position: absolute;
+  left: 700px;
+  bottom: -820px;
+}
+
+.uae-tour-hero {
+  width: 981px;
+  height: 413px;
+  background-color: red;
+  margin: 0 auto;
+  margin-top: 48.5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/uae.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.uae-tour-hero h2 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 300;
+}
+.uae-tour-hero p {
   color: #ffffff;
   font-size: 30px;
   font-weight: 200;
