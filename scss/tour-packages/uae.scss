@@ -32,24 +32,36 @@
   display: flex;
   //   align-items: ;
   justify-content: center;
-  .box1 {
+  .uae-box1 {
     width: 298px;
     height: 347px;
-    background-color: black;
+    // background-color: black;
+    background-image: url(../images/uae-tour-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 42px;
     margin-bottom: 29px;
   }
-  .box2 {
+  .uae-box2 {
     width: 298px;
     height: 347px;
-    background-color: black;
+    // background-color: black;
+    background-image: url(../images/uae-tour-02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 42px;
     margin-bottom: 29px;
   }
-  .box3 {
+  .uae-box3 {
     width: 298px;
     height: 347px;
-    background-color: black;
+    // background-color: black;
+    background-image: url(../images/uae-tour-03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 .info {

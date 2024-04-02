@@ -32,24 +32,36 @@
   display: flex;
   //   align-items: ;
   justify-content: center;
-  .box1 {
+  .japan-box1 {
     width: 298px;
     height: 347px;
-    background-color: black;
+    // background-color: black;
+    background-image: url(../images/japan-tour-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 42px;
     margin-bottom: 29px;
   }
-  .box2 {
+  .japan-box2 {
     width: 298px;
     height: 347px;
-    background-color: black;
+    // background-color: black;
+    background-image: url(../images/japan-tour-02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-right: 42px;
     margin-bottom: 29px;
   }
-  .box3 {
+  .japan-box3 {
     width: 298px;
     height: 347px;
-    background-color: black;
+    // background-color: black;
+    background-image: url(../images/japan-tour-03.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 .info {

@@ -657,7 +657,6 @@ p {
 .banner {
   max-width: 981px;
   height: 200px;
-  background-color: blue;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tours.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -1060,24 +1059,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .is-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/israel-pic1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .is-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/israel-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .is-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/israel-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1162,24 +1170,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .usa-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/usa-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .usa-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/usa-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .usa-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/usa-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1265,24 +1282,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .aus-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/aus-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .aus-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/aus-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .aus-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/aus-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1368,24 +1394,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .newz-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
   margin-right: 42px;
   margin-bottom: 29px;
+  background-image: url(../images/nz-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.pics .box2 {
+.pics .newz-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
   margin-right: 42px;
   margin-bottom: 29px;
+  background-image: url(../images/nz-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.pics .box3 {
+.pics .newz-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/nz-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1470,24 +1505,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .fra-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/france-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .fra-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/france-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .fra-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/france-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1573,24 +1617,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .egypt-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/egypt-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .egypt-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/egypt-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .egypt-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/egypt-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1676,24 +1729,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .japan-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/japan-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .japan-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/japan-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .japan-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/japan-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1779,24 +1841,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .canada-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/canada-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .canada-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/canada-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .canada-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/canada-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
@@ -1882,24 +1953,33 @@ p {
   display: flex;
   justify-content: center;
 }
-.pics .box1 {
+.pics .uae-box1 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/uae-tour-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box2 {
+.pics .uae-box2 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/uae-tour-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-right: 42px;
   margin-bottom: 29px;
 }
-.pics .box3 {
+.pics .uae-box3 {
   width: 298px;
   height: 347px;
-  background-color: black;
+  background-image: url(../images/uae-tour-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .info {
