@@ -1,0 +1,119 @@
+.offer-head {
+  margin-top: 55.5px;
+  width: $content-width;
+  margin-left: 280px;
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 0 auto;
+  }
+
+  hr {
+    width: 199px;
+    border-top: 2px solid black;
+  }
+}
+
+.offer-box-1 {
+  margin-left: 280px;
+  margin-top: 35.5px;
+  display: flex;
+  position: relative;
+  width: 1000px;
+  .spec-pic-1 {
+    width: 199px;
+    height: 287px;
+    // background-color: green;
+    background-image: url(../images/special-offer-01.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .discount {
+    font-size: 15px;
+    font-weight: 200;
+    color: orange;
+    top: -10px;
+    left: 460px;
+  }
+  p {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    margin-left: 20px;
+    width: 290px;
+    margin-top: 21.5px;
+  }
+  button {
+    color: white;
+    background-color: $site-blue;
+    border: none;
+    height: 40px;
+    width: 133px;
+    border-radius: 20px;
+    margin: 50px;
+    position: absolute;
+    top: 190px;
+    left: 170px;
+  }
+}
+
+.offer-box-2 {
+  margin-left: 280px;
+  margin-top: 35.5px;
+  display: flex;
+  position: relative;
+  width: 1000px;
+  margin-bottom: 100px;
+
+  .spec-pic-2 {
+    width: 199px;
+    height: 287px;
+    // background-color: green;
+    background-image: url(../images/special-offer-02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 20px;
+    text-decoration: underline;
+  }
+
+  .discount {
+    font-size: 15px;
+    font-weight: 200;
+    color: orange;
+    top: -10px;
+    left: 495px;
+  }
+  p {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    margin-left: 20px;
+    width: 290px;
+    margin-top: 21.5px;
+  }
+  button {
+    color: white;
+    background-color: $site-blue;
+    border: none;
+    height: 40px;
+    width: 133px;
+    border-radius: 20px;
+    margin: 50px;
+    position: absolute;
+    top: 190px;
+    left: 170px;
+  }
+}
